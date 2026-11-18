@@ -25,3 +25,4 @@
    25  git pull
    26  clear
    27  history > meusComandosCodespace.txt
+.
