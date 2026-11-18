@@ -1,0 +1,156 @@
+NOME: Manuel Liendo
+NMEC: 126949
+
+3.4 - pwd 
+    Output - /workspaces/LABINFO-03-26-27
+
+Primeira Tarefa - identificação do repo
+
+1- feito
+2- feito (na criação cliquei no botao do editor do codespace acima À esquerda criar ficheiro não utilizei comandos)
+3-  git add . 
+    git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    git push
+
+Segunda Tarefa - Criação de pastas e navegação no terminal
+
+1-  mkdir A126949
+
+2-  cd A126949
+    pwd
+    Output: /workspaces/LABINFO-03-26-27/A126949
+
+3-  echo "Teste de LI 2026/2027." > README.md
+
+4-  cd ..
+    pwd
+    Output: /workspaces/LABINFO-03-26-27
+
+5-  history > cmdstask2.txt 
+
+6-  git add .
+    git commit -m "2.ª tarefa concluída"
+    git push
+
+Terceira Tarefa - Clonar o projeto e criar uma página com Bootstrap
+
+1-  win + R -> "cmd"
+    cd desktop
+    cd Terceira_tarefa
+    git clone https://github.com/manuelliendo77/LABINFO-03-26-27.git
+    cd LABINFO-03-26-27
+    git add .
+    git commit -m "3.ª tarefa concluída"
+    git push
+
+Quarta Tarefa - Adicionar navegação e conteúdo à página inicial
+
+1-  git add .
+    git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+    git push
+
+Quinta Tarefa - Criar a página «A disciplina» e sincronizar as duas cópias
+
+Parte A - No GitHub Codespaces:
+1-  git pull
+2-  cp index.html disciplina.html
+3-  git add .
+4-  git commit -m "Cria disciplina.html a partir de index.html"
+5-  git push
+
+Parte B - No computador:
+1-  git pull
+2-  git add .
+3-  git commit -m "5.ª tarefa cumprida"
+4-  git push
+
+Sexta Tarefa - Registar e entregar os comandos da prova
+
+Parte A - No GitHub Codespaces:
+1-  git pull
+2-  history > meusComandosCodespace.txt
+3-  git add .
+4-  git commit -m "ficheiro meuscomandoscodespace"
+5-  git push
+
+Parte B - No computador:
+1-  git pull
+2-  exportação do histórico para meusComandosLocais.txt
+3-  git add .
+4-  git commit -m "tarefa 6 cumprida"
+5-  git push
+
+
+=== Comandos do Codespace ===
+    1  clear
+    2  pwd
+    3  git add .
+    4  git commit -m"Tarefa 1: adiciona o ficheiro de identificação" 
+    5  git push
+    6  mkdir A126949
+    7  cd A126949
+    8  pwd
+    9  clear
+   10  echo "Teste de LI 2026/2027." > README.md
+   11  cd ..
+   12  pwd
+   13  history > cmdstask2.txt
+   14  clear
+   15  git add .
+   16  git commit -m "2.ª tarefa concluída"
+   17  git push
+   18  clear
+   19  git pull
+   20  clear
+   21  cp index.html disciplina.html
+   22  git add .
+   23  git commit -m "Cria disciplina.html a partir de index.html"
+   24  git push
+   25  git pull
+   26  clear
+   27  history > meusComandosCodespace.txt
+
+--- Comandos do computador ---
+mk index.html
+cls
+git add .
+git commit -m "3.ª tarefa concluída"
+git push
+cls
+git add .
+git commit -m"4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push
+clear
+git pull
+git add .
+git commit -m "5.ª tarefa cumprida"
+git push
+clear
+git pull
+git pull
+clear
+
+=== CMD COMANDOS ===
+
+cd Desktop
+mkdir 3ra tarefa
+cd 3ra tarefa
+clear
+cls
+mkdir Terceira_tarefa
+cd Terceira_tarefa
+git clone https://github.com/manuelliendo77/LABINFO-03-26-27.git
+cd LABINFO-03-26-27
+ls
+ls -la
+la
+clear
+cls
+clear
+cls
+history
+doskey /history
+
+git add .
+git commit -m "tarefa 6 cumprida"
+git push
