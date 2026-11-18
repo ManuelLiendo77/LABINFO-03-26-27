@@ -1,0 +1,39 @@
+﻿mk index.html
+cls
+git add .
+git commit -m "3.ª tarefa concluída"
+git push
+cls
+git add .
+git commit -m"4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push
+clear
+git pull
+git add .
+git commit -m "5.ª tarefa cumprida"
+git push
+clear
+git pull
+git pull
+clear
+
+=== CMD COMANDOS ===
+
+cd Desktop
+mkdir 3ra tarefa
+cd 3ra tarefa
+clear
+cls
+mkdir Terceira_tarefa
+cd Terceira_tarefa
+git clone https://github.com/manuelliendo77/LABINFO-03-26-27.git
+cd LABINFO-03-26-27
+ls
+ls -la
+la
+clear
+cls
+clear
+cls
+history
+doskey /history
